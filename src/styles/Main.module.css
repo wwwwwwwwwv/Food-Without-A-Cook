@@ -42,6 +42,16 @@
   border-radius: 10px;
   padding: 10px;
 }
+.joi img{
+  width: 80px;
+}
+.nil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9vh;
+  margin-left: -80px;
+}
 
 .group {
   min-width: 320px;
@@ -78,4 +88,23 @@
 .text span{
   color: #1657ee;
   font-weight: 800;
+}
+
+.box{
+  width: 100%;
+  padding: 25px 0px;
+  
+  }
+
+.vrit{
+  background-color: #ffffffbd;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.vrit a{
+  font-weight: 900;
+  color: #1657ee;
 }

@@ -25,55 +25,73 @@ const Main = () => {
   };
 
   return (
-    <div className={styles.wrap}>
-      <div className={styles.joi}>
-        <h1 className={styles.heading}>Join</h1>
 
-        <form className={styles.form}>
-          <div className={styles.group}>
-            <input
-              type="text"
-              name="name"
-              value={values[NAME]}
-              placeholder="Username"
-              className={styles.input}
-              onChange={handleChange}
-              autoComplete="off"
-              required
-            />
-          </div>
-          <div className={styles.group}>
-            <input
-              type="text"
-              name="room"
-              placeholder="Room"
-              value={values[ROOM]}
-              className={styles.input}
-              onChange={handleChange}
-              autoComplete="off"
-              required
-            />
-          </div>
 
-          <Link
-            className={styles.group}
-            onClick={handleClick}
-            to={`/chat?name=${values[NAME]}&room=${values[ROOM]}`}
-          >
-            <button type="submit" className={styles.button}>
-              Sign In
-            </button>
-          </Link>
-        </form>
-        <br />
-        
-        <div className={styles.text}>
-          
-          <p>Room: <span> reviews</span> </p>
-        </div>
-      </div>
+  <div className={styles.wrap}>   
+    
+  <div className={styles.joi}>
+
+    <div className={styles.nil}>
       
+    <img src="/cuckoldTipsi.png" alt=""  />
+    <a href="/"></a>
+
+      
+    <h1 className={styles.heading}> Join </h1>
+    
+
     </div>
+    
+
+    <form className={styles.form}>
+      <div className={styles.group}>
+        <input
+          type="text"
+          name="name"
+          value={values[NAME]}
+          placeholder="Username"
+          className={styles.input}
+          onChange={handleChange}
+          autoComplete="off"
+          required
+        />
+      </div>
+      <div className={styles.group}>
+        <input
+          type="text"
+          name="room"
+          placeholder="Room"
+          value={values[ROOM]}
+          className={styles.input}
+          onChange={handleChange}
+          autoComplete="off"
+          required
+        />
+      </div>
+
+      <Link
+        className={styles.group}
+        onClick={handleClick}
+        to={`/chat?name=${values[NAME]}&room=${values[ROOM]}`}
+      >
+        <button type="submit" className={styles.button}>
+          Sign In
+        </button>
+      </Link>
+    </form>
+    <br />
+    
+    <div className={styles.text}>
+      
+      <p>Room: <span> reviews</span> </p>
+    </div>
+    
+  </div>
+
+  </div>
+
+
+   
   );
 };
 
