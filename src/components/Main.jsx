@@ -66,7 +66,7 @@ const Main = () => {
           </Link>
         </form>
         <br />
-        <br />
+        
         <div className={styles.text}>
           
           <p>Room: <span> reviews</span> </p>
