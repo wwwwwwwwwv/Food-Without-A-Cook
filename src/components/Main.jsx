@@ -34,7 +34,7 @@ const Main = () => {
     <div className={styles.nil}>
       
     <img src="/cuckoldTipsi.png" alt=""  />
-    <a href="/"></a>
+    <a href="https://fdwc.vercel.app/"></a>
 
       
     <h1 className={styles.heading}> Join </h1>

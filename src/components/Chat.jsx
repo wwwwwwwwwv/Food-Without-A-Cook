@@ -66,7 +66,7 @@ const Chat = () => {
           Left the room
         </button>
       </div>
-<br />
+<br />    
       <div className={styles.messages}>
         <Messages messages={state} name={params.name} />
       </div>
