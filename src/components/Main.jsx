@@ -33,12 +33,16 @@ const Main = () => {
 
     <div className={styles.nil}>
       
-
-    <a href="https://fdwc.vercel.app/">    <img src="/cuckoldTipsi.png" alt=""  /></a>
-
-      
-    <h1 className={styles.heading}> Join </h1>
+    <div className={styles.gitu}>
+      <a href="https://fdwc.vercel.app/">      <img src="/cuckoldTipsi.png" alt=""  /></a>    
+      <h1 className={styles.heading}> Join </h1>
+    </div>
     
+      <div className={styles.hom}>
+
+      <a href="https://fdwc.vercel.app/">Home</a>
+
+        </div>
 
     </div>
     

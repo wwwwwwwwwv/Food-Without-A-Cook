@@ -47,10 +47,31 @@
 }
 .nil{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 9vh;
   margin-left: -80px;
+  padding: 5px 60px;
+}
+
+.hom a{
+  font-size: 23px;
+  font-weight: 900;
+  font-family: cursive;
+  background: #4671D5;
+  border-radius: 10px;
+   padding: 5px 5px;
+
+}
+.hom a:hover{
+  background: #4671D5;
+ border-radius: 10px;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+.gitu{
+    display: flex;
+  align-items: center;
 }
 
 .group {
